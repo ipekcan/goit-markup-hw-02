@@ -1,4 +1,4 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 
-https://ipekcan.github.io/goit-markup-hw-01/
+https://ipekcan.github.io/goit-markup-hw-02/
  
