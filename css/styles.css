@@ -1,35 +1,249 @@
 body {
-    font-family: "Raleway";
-    color: #434455;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #434455;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  /* <uniquifier>: Use a unique and descriptive class name */
 
-  .raleway-logo {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+    color:#434455;
     font-style: normal;
-  }  
+}
+header {
+/* Top Line */
+
+position: absolute;
+
+left: 0px;
+top: 0px;
+  width: 1440px;
+  height: 72px;
+  border: 1px;
+  border-bottom: #e7e9fc;
+  background-color: #ffffff;
+}
+.divHeader {
+    /* Top Line */
+
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+
+}
+
+.menuLogo {
+  /* Logo */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+
+  position: absolute;
+  width: 115px;  /*130px*/
+  height: 24px; /*24px*/
+  left: 156px;
+  /*top: 18px;*/
+  
+}
+.aLogo {
+    text-decoration: none;
+    float: inline-start;
+    width: 120px;
+    height: 21px;
+}
+span.logoWeb {
+
+  /* Web */
+
+width: 44px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+display:inline-block;
+align-items:center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+color: #4D5AE5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+span.logoStud {
+/* Studio */
+
+width: 71px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+display:inline-block;
+align-items:last center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+color: #2E2F42;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.menuNav {
+    /* Menu Nav */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction:row;
+    align-items:start;
+    padding: 0px;
+    gap: 40px;
+  
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px; /*24px*/
+  }
+  .menuNav ul {
+    display: contents;
+  }
+  
+  .menuNav li {
+    /* Studio */
+    /* Portfolio */
+    /* Contacts */
+  
+    height: 24px;
+    display: inline-block;
+    /* Body Medium */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+  
+    /* NAVY BLUE */
+    color: #2e2f42;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+nav li.menuStudio {
+  width: 48px;
+  
+}
+nav li.menuPortfolio {
+  width: 66px;
+}
+nav li.menuContacts {
+  width: 67px;
+  
+}
+.linkStudio {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.linkPortfolio {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.linkContacts {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.address {
+    display: flex;
+}
+.email {
+  /* info@devstudio.com */
+
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
+
+  text-decoration: none;
+}
+.tel {
+  /* +11 (000) 111-11-11 */
+
+  position: absolute;
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+
+  text-decoration: none;
+}
+
+
+
+
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* <uniquifier>: Use a unique and descriptive class name */
+
+.raleway-logo {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
