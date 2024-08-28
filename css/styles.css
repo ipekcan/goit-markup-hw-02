@@ -12,16 +12,16 @@ ol {
   list-style-type: none;
 }
 a {
-    color:#434455;
-    font-style: normal;
+  color: #434455;
+  font-style: normal;
 }
 header {
-/* Top Line */
+  /* Top Line */
 
-position: absolute;
+  position: absolute;
 
-left: 0px;
-top: 0px;
+  left: 0px;
+  top: 0px;
   width: 1440px;
   height: 72px;
   border: 1px;
@@ -29,15 +29,13 @@ top: 0px;
   background-color: #ffffff;
 }
 .divHeader {
-    /* Top Line */
+  /* Top Line */
 
-position: absolute;
-width: 1440px;
-height: 72px;
-left: 0px;
-top: 0px;
-
-
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
 }
 
 .menuLogo {
@@ -50,129 +48,121 @@ top: 0px;
   padding: 0;
 
   position: absolute;
-  width: 115px;  /*130px*/
+  width: 115px; /*130px*/
   height: 24px; /*24px*/
   left: 156px;
   /*top: 18px;*/
-  
 }
 .aLogo {
-    text-decoration: none;
-    float: inline-start;
-    width: 120px;
-    height: 21px;
+  text-decoration: none;
+  float: inline-start;
+  width: 120px;
+  height: 21px;
 }
 span.logoWeb {
-
   /* Web */
 
-width: 44px;
-height: 21px;
+  width: 44px;
+  height: 21px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height, or 117% */
-display:inline-block;
-align-items:center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: inline-block;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-/* IRIS */
-color: #4D5AE5;
+  /* IRIS */
+  color: #4d5ae5;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 span.logoStud {
-/* Studio */
+  /* Studio */
 
-width: 71px;
-height: 21px;
+  width: 71px;
+  height: 21px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height, or 117% */
-display:inline-block;
-align-items:last center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: inline-block;
+  align-items: last center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-/* NAVY BLUE */
-color: #2E2F42;
+  /* NAVY BLUE */
+  color: #2e2f42;
 
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .menuNav {
-    /* Menu Nav */
-  
-    /* Auto layout */
-    display: flex;
-    flex-direction:row;
-    align-items:start;
-    padding: 0px;
-    gap: 40px;
-  
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px; /*24px*/
-  }
-  .menuNav ul {
-    display: contents;
-  }
-  
-  .menuNav li {
-    /* Studio */
-    /* Portfolio */
-    /* Contacts */
-  
-    height: 24px;
-    display: inline-block;
-    /* Body Medium */
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    letter-spacing: 0.02em;
-  
-    /* NAVY BLUE */
-    color: #2e2f42;
-  
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
+  /* Menu Nav */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 261px;
+  height: 24px;
+  left: 347px;
+  top: 24px; /*24px*/
+}
+.menuNav ul {
+  display: contents;
+}
+
+.menuNav li {
+  /* Studio */
+  /* Portfolio */
+  /* Contacts */
+
+  height: 24px;
+  display: inline-block;
+  /* Body Medium */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 
 nav li.menuStudio {
   width: 48px;
-  
 }
 nav li.menuPortfolio {
   width: 66px;
 }
 nav li.menuContacts {
   width: 67px;
-  
 }
 .linkStudio {
   text-decoration: none;
@@ -187,7 +177,7 @@ nav li.menuContacts {
   color: #2e2f42;
 }
 .address {
-    display: flex;
+  display: flex;
 }
 .email {
   /* info@devstudio.com */
@@ -212,147 +202,262 @@ nav li.menuContacts {
   text-decoration: none;
 }
 .heroImgSection {
-    /* hero image */
+  /* hero image */
 
-position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
 
-background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 h1 {
-/* Effective Solutions for Your Business */
+  /* Effective Solutions for Your Business */
 
-position: absolute;
-width: 496px;
-height: 120px;
-left: 472px;
-top: 120px;
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 120px;
 
-/* Header 1 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-/* or 107% */
-text-align: center;
-letter-spacing: 0.02em;
+  /* Header 1 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+  text-align: center;
+  letter-spacing: 0.02em;
 
-/* WHITE */
-color: #FFFFFF;
-
-
+  /* WHITE */
+  color: #ffffff;
 }
 .btnOrderService {
-    /* Button */
+  /* Button */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 32px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
 
-position: absolute;
-width: 169px;
-height: 56px;
-left: 636px;
-top: 320px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 320px;
 
-/* IRIS */
-background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-
+  /* IRIS */
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .section1 {
-    /* Section 1 */
+  /* Section 1 */
 
-position: absolute;
-width: 1128px;
-height: 104px;
-left: 156px;
-top: 792px;
-
-
+  position: absolute;
+  width: 1128px;
+  height: 104px;
+  left: 156px;
+  top: 792px;
 }
 .section1 ul {
-    display: flex;
+  display: flex;
 }
 .sec1Col {
-    /* Feature 1 */
+  /* Feature 1 */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
 }
 .sec1Title {
-/* Strategy */
+  /* Strategy */
 
-width: 264px;
-height: 24px;
+  width: 264px;
+  height: 24px;
 
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
- 
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .sec1Text {
-/* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
+  /* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
 
-width: 264px;
-height: 72px;
+  width: 264px;
+  height: 72px;
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .section2 {
-    /* Section 2 */
+  /* Section 2 */
 
-position: absolute;
-width: 1440px;
-height: 732px;
-left: 0px;
-top: 1016px;
+  position: absolute;
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1016px;
+  background-color: #f4f4fd;
+}
+.section2 h2 {
+  /* Our Team */
 
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 100px;
 
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.section2 ul {
+  /* Team Card 1 */
+  /* Team Card 2 */
+  /* Team Card 3 */
+  /* Team Card 4 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 1350px;
+  height: 480px;
+  left: 50px;
+  top: 200px;
+
+  background: #f4f4fd;
+}
+
+.section2 li .div-team-card-1 {
+  left: 156px;
+  height: 440px;
+  width: 264px;
+  /* WHITE
+
+Header background, team card background
+*/
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section2 li .div-team-card-2 {
+  left: 444px;
+  height: 440px;
+  width: 264px;
+  /* WHITE
+
+Header background, team card background
+*/
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.section2 li .div-team-card-3 {
+  left: 732px;
+  height: 440px;
+  width: 264px;
+  /* WHITE
+
+Header background, team card background
+*/
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.section2 li .div-team-card-4 {
+  left: 1020px;
+  height: 440px;
+  width: 264px;
+  /* WHITE
+
+Header background, team card background
+*/
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.card-content {
+  /* Card Content */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 232px;
+  height: 56px;
+}
+.card-content .name {
+  padding: 0px 0px 0px 0px;
+  width: 134px;
+  height: 24px;
+
+  /* identical to box height, or 120% */
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.card-content .job {
+  /* Frontend Developer */
+  padding: -40px 0px 0px 0px;
+  width: 144px;
+  height: 24px;
+
+  /* Body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .section3 {
-    /* Section 3 */
+  /* Section 3 */
 
-position: absolute;
-width: 1128px;
-height: 1000px;
-left: 156px;
-top: 1868px;
-
-
+  position: absolute;
+  width: 1128px;
+  height: 1000px;
+  left: 156px;
+  top: 1868px;
 }
 .footer {
-/* Footer */
+  /* Footer */
 
-position: absolute;
-width: 1440px;
-height: 312px;
-left: 0px;
-top: 2988px;
-
-
-
-
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2988px;
 }
 
 .roboto-thin {
