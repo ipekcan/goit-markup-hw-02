@@ -612,27 +612,25 @@ team card background
   opacity: 1;
 }
 .text {
-/* 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App */
+  /* 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App */
 
-position: absolute;
-width: 296px;
-height: 96px;
-left: 32px;
-top: 40px;
+  position: absolute;
+  width: 296px;
+  height: 96px;
+  left: 32px;
+  top: 40px;
 
-/* Body */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
-letter-spacing: 0.02em;
+  /* Body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.02em;
 
-/* CLOUD */
-color: #F4F4FD;
-
-
+  /* CLOUD */
+  color: #f4f4fd;
 }
 
 .port-card-content {
@@ -658,16 +656,13 @@ color: #F4F4FD;
 }
 
 .project-card:hover .port-card-content {
-
-
-/* WHITE
+  /* WHITE
 
 Header background, team card background
 */
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
-
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .port-card-content h3 {
   /* Banking App */
