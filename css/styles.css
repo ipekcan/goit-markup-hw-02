@@ -28,7 +28,7 @@ header {
   border-bottom: #e7e9fc;
   background-color: #ffffff;
 }
-.divHeader {
+.div-header {
   /* Top Line */
 
   position: absolute;
@@ -38,7 +38,7 @@ header {
   top: 0px;
 }
 
-.menuLogo {
+.menu-logo {
   /* Logo */
 
   /* Auto layout */
@@ -53,13 +53,13 @@ header {
   left: 156px;
   /*top: 18px;*/
 }
-.aLogo {
+.a-logo {
   text-decoration: none;
   float: inline-start;
   width: 120px;
   height: 21px;
 }
-span.logoWeb {
+span.logo-web {
   /* Web */
 
   width: 44px;
@@ -84,7 +84,7 @@ span.logoWeb {
   order: 0;
   flex-grow: 0;
 }
-span.logoStud {
+span.logo-stud {
   /* Studio */
 
   width: 71px;
@@ -109,14 +109,14 @@ span.logoStud {
   order: 1;
   flex-grow: 0;
 }
-span.logoStud:hover {
+span.logo-stud:hover {
   color:  #404BBF;
   ;
 }
-span.logoStud:active {
+span.logo-stud:active {
   color: #404BBF;
 }
-.menuNav {
+.menu-nav {
   /* Menu Nav */
 
   /* Auto layout */
@@ -132,11 +132,11 @@ span.logoStud:active {
   left: 347px;
   top: 24px; /*24px*/
 }
-.menuNav ul {
+.menu-nav ul {
   display: contents;
 }
 
-.menuNav li {
+.menu-nav li {
   /* Studio */
   /* Portfolio */
   /* Contacts */
@@ -161,24 +161,24 @@ span.logoStud:active {
   flex-grow: 0;
 }
 
-nav li.menuStudio {
+nav li.menu-studio {
   width: 48px;
 }
-nav li.menuPortfolio {
+nav li.menu-portfolio {
   width: 66px;
 }
-nav li.menuContacts {
+nav li.menu-contacts {
   width: 67px;
 }
-.linkStudio {
+.link-studio {
   text-decoration: none;
   color: #2e2f42;
 }
-.linkPortfolio {
+.link-portfolio {
   text-decoration: none;
   color: #2e2f42;
 }
-.linkContacts {
+.link-contacts {
   text-decoration: none;
   color: #2e2f42;
 }
@@ -213,7 +213,7 @@ nav li.menuContacts {
 .tel:hover {
   color: #404BBF;
 }
-.heroImgSection {
+.hero-img-section {
   /* hero image */
 
   position: absolute;
@@ -246,7 +246,7 @@ h1 {
   /* WHITE */
   color: #ffffff;
 }
-.btnOrderService {
+.btn-order-service {
   /* Button */
 
   /* Auto layout */
@@ -269,7 +269,7 @@ h1 {
 
   cursor: pointer;
 }
-.btnOrderService:hover{
+.btn-order-service:hover{
   background-color:  #404BBF;
 }
 .section1 {
@@ -284,7 +284,7 @@ h1 {
 .section1 ul {
   display: flex;
 }
-.sec1Col {
+.sec1-col {
   /* Feature 1 */
 
   /* Auto layout */
@@ -294,7 +294,7 @@ h1 {
   padding: 0px;
   gap: 8px;
 }
-.sec1Title {
+.sec1-title {
   /* Strategy */
 
   width: 264px;
@@ -305,7 +305,7 @@ h1 {
   order: 0;
   flex-grow: 0;
 }
-.sec1Text {
+.sec1-text {
   /* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
 
   width: 264px;
