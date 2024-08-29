@@ -327,7 +327,7 @@ h1 {
   /* Team Card 2 */
   /* Team Card 3 */
   /* Team Card 4 */
-
+  margin: 0px 0px 0px 0px;
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -339,7 +339,7 @@ h1 {
   position: absolute;
   width: 1350px;
   height: 480px;
-  left: 50px;
+  left: 20px;
   top: 200px;
 
   background: #f4f4fd;
@@ -347,11 +347,11 @@ h1 {
 
 .section2 li .div-team-card-1 {
   left: 156px;
-  height: 440px;
+  height: 360px;
   width: 264px;
   /* WHITE
 
-Header background, team card background
+team card background
 */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -360,11 +360,11 @@ Header background, team card background
 
 .section2 li .div-team-card-2 {
   left: 444px;
-  height: 440px;
+  height: 360px;
   width: 264px;
   /* WHITE
 
-Header background, team card background
+ team card background
 */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -372,11 +372,11 @@ Header background, team card background
 }
 .section2 li .div-team-card-3 {
   left: 732px;
-  height: 440px;
+  height: 360px;
   width: 264px;
   /* WHITE
 
-Header background, team card background
+  team card background
 */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -384,15 +384,17 @@ Header background, team card background
 }
 .section2 li .div-team-card-4 {
   left: 1020px;
-  height: 440px;
+  height: 360px;
   width: 264px;
   /* WHITE
 
-Header background, team card background
+ team card background
 */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+
+  /* Inside auto layout */
 }
 .card-content {
   /* Card Content */
@@ -400,7 +402,21 @@ Header background, team card background
   /* Auto layout */
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 232px;
+  height: 56px;
+}
+.div-team-card-4 .card-content {
+  /* Card Content */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
   align-items: center;
   padding: 0px;
   gap: 8px;
@@ -409,7 +425,9 @@ Header background, team card background
   height: 56px;
 }
 .card-content .name {
-  padding: 0px 0px 0px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
   width: 134px;
   height: 24px;
 
@@ -419,7 +437,9 @@ Header background, team card background
 }
 .card-content .job {
   /* Frontend Developer */
-  padding: -40px 0px 0px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
   width: 144px;
   height: 24px;
 
@@ -441,6 +461,10 @@ Header background, team card background
   order: 1;
   flex-grow: 0;
 }
+#imgDaniel {
+  position: relative;
+  left: 16px;
+}
 .section3 {
   /* Section 3 */
 
@@ -450,6 +474,142 @@ Header background, team card background
   left: 156px;
   top: 1868px;
 }
+.section3 h2 {
+  /* Our Portfolio */
+
+  position: absolute;
+  width: 268px;
+  height: 40px;
+  left: 611px;
+
+  /* Header 2 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.section3 .sec3-row1 {
+  /* Row 1 */
+
+  position: relative;
+  width: 1128px;
+  height: 420px;
+  left: calc(50% - 1128px / 2);
+  top: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+
+.section3 .sec3-row2 {
+  /* Row 2 */
+
+  position: relative;
+  width: 1128px;
+  height: 420px;
+  left: calc(50% - 1128px / 2);
+  top: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+.project-card {
+  /* Project Card 1 */
+
+  width: 360px;
+  height: 420px;
+
+  /* WHITE
+  
+  Header background, team card background
+  */
+  background: #ffffff;
+}
+.port-card-content {
+  /* Card Content */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 16px;
+  gap: 8px;
+
+ 
+  width: 360px;
+  height: 120px;
+ 
+
+  /* CORNFLOWER */
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+}
+.port-card-content h3 {
+/* Banking App */
+
+width: 200px;
+height: 24px;
+
+/* Header 3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+color: #2E2F42;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.port-card-content h6 {
+/* App */
+margin: -20px 0px 0px 0px;
+width: 30px;
+height: 24px;
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+/* SLATE */
+color: #434455;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
 .footer {
   /* Footer */
 
@@ -458,8 +618,101 @@ Header background, team card background
   height: 312px;
   left: 0px;
   top: 2988px;
-}
 
+  /* Dark-bg */
+
+  /* NAVY BLUE */
+  background: #2e2f42;
+}
+.div-footer {
+  /* Text */
+
+  position: relative;
+  width: 264px;
+  height: 112px;
+  left: 156px;
+  top: 100px;
+}
+.footerLogo .aLogo {
+  /* Logo */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: relative;
+  width: 115px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+}
+.footerLogo .aLogo .logoWeb {
+  /* Web */
+
+  width: 44px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footerLogo .aLogo .logoStud {
+  /* Studio */
+
+  width: 71px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* CLOUD */
+  color: #f4f4fd;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footer-text {
+  /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
+
+  /* Body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+  color: #f4f4fd;
+}
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
