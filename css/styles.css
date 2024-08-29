@@ -109,7 +109,13 @@ span.logoStud {
   order: 1;
   flex-grow: 0;
 }
-
+span.logoStud:hover {
+  color:  #404BBF;
+  ;
+}
+span.logoStud:active {
+  color: #404BBF;
+}
 .menuNav {
   /* Menu Nav */
 
@@ -190,6 +196,9 @@ nav li.menuContacts {
 
   text-decoration: none;
 }
+.email:hover {
+  color: #404BBF;
+}
 .tel {
   /* +11 (000) 111-11-11 */
 
@@ -200,6 +209,9 @@ nav li.menuContacts {
   top: 24px;
 
   text-decoration: none;
+}
+.tel:hover {
+  color: #404BBF;
 }
 .heroImgSection {
   /* hero image */
@@ -254,6 +266,11 @@ h1 {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  cursor: pointer;
+}
+.btnOrderService:hover{
+  background-color:  #404BBF;
 }
 .section1 {
   /* Section 1 */
