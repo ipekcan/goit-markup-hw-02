@@ -650,9 +650,9 @@ flex-grow: 0;
   left: 156px;
   top: 100px;
 }
-.footerLogo .aLogo {
+.footer-logo .a-logo {
   /* Logo */
-
+  text-decoration: none;
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -665,7 +665,7 @@ flex-grow: 0;
   left: 0px;
   top: 0px;
 }
-.footerLogo .aLogo .logoWeb {
+.footer-logo .a-logo .logo-web {
   /* Web */
 
   width: 44px;
@@ -690,7 +690,7 @@ flex-grow: 0;
   order: 0;
   flex-grow: 0;
 }
-.footerLogo .aLogo .logoStud {
+.footer-logo .a-logo .logo-stud {
   /* Studio */
 
   width: 71px;
