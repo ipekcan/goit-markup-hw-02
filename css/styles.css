@@ -379,6 +379,14 @@ team card background
   border-radius: 0px 0px 4px 4px;
 }
 
+.section2 li .div-team-card-1:hover {
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+
 .section2 li .div-team-card-2 {
   left: 444px;
   height: 360px;
@@ -391,6 +399,13 @@ team card background
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.section2 li .div-team-card-2:hover {
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
 .section2 li .div-team-card-3 {
   left: 732px;
   height: 360px;
@@ -402,6 +417,13 @@ team card background
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+.section2 li .div-team-card-3:hover {
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .section2 li .div-team-card-4 {
   left: 1020px;
@@ -416,6 +438,13 @@ team card background
   border-radius: 0px 0px 4px 4px;
 
   /* Inside auto layout */
+}
+.section2 li .div-team-card-4:hover {
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .card-content {
   /* Card Content */
@@ -551,17 +580,61 @@ team card background
   gap: 20px;
 }
 .project-card {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+}
+.project-card .image-portfolio {
   /* Project Card 1 */
 
-  width: 360px;
-  height: 420px;
+  display: block;
+  width: 100%;
+  height: auto;
 
   /* WHITE
   
   Header background, team card background
   */
-  background: #ffffff;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.project-card:hover .overlay {
+  /* hover project card */
+
+  opacity: 1;
+}
+.text {
+/* 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App */
+
+position: absolute;
+width: 296px;
+height: 96px;
+left: 32px;
+top: 40px;
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+letter-spacing: 0.02em;
+
+/* CLOUD */
+color: #F4F4FD;
+
+
+}
+
 .port-card-content {
   /* Card Content */
 
@@ -582,6 +655,19 @@ team card background
   border-width: 0px 1px 1px 1px;
   border-style: solid;
   border-color: #e7e9fc;
+}
+
+.project-card:hover .port-card-content {
+
+
+/* WHITE
+
+Header background, team card background
+*/
+background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+
 }
 .port-card-content h3 {
   /* Banking App */
