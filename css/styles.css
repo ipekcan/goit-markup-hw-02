@@ -110,12 +110,6 @@ span.logo-stud {
   order: 1;
   flex-grow: 0;
 }
-span.logo-stud:hover {
-  color: #404bbf;
-}
-span.logo-stud:active {
-  color: #404bbf;
-}
 .menu-nav {
   /* Menu Nav */
 
@@ -169,6 +163,12 @@ nav li.menu-portfolio {
 }
 nav li.menu-contacts {
   width: 67px;
+}
+.menu-nav li:hover a {
+  color: #404bbf;
+}
+.menu-nav li a:active {
+  color: #404bbf;
 }
 .link-studio {
   text-decoration: none;
@@ -533,7 +533,7 @@ team card background
   position: absolute;
   width: 268px;
   height: 40px;
-  left: 611px;
+  left: 400px;
 
   /* Header 2 */
   font-family: "Roboto";
@@ -583,13 +583,17 @@ team card background
   position: relative;
   width: 100%;
   max-width: 360px;
+  height: 420px;
+
+  display: flex;
+  flex-direction: column;
 }
 .project-card .image-portfolio {
   /* Project Card 1 */
 
   display: block;
   width: 100%;
-  height: auto;
+  height: 360px;
 
   /* WHITE
   
@@ -643,7 +647,7 @@ team card background
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 32px 16px;
+  padding: 32px 16px 32px 16px;
   gap: 8px;
 
   width: 360px;
